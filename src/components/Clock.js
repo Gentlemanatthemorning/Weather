@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const ClockTime = props => <h1>{props.time}</h1>;
+const ClockTime = props => <h3>{props.time}</h3>;
 
-const ClockDate = props => <h1>{props.date}</h1>;
+const ClockDate = props => <h3>{props.date}</h3>;
 
 class Clock extends React.Component {
   state = {

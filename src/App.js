@@ -43,7 +43,7 @@ class App extends React.Component {
         humidity: "",
         wind: "",
         description: "",
-        error: "Please enter the values."
+        error: "Now, young Skywalker, you will die."
       });
     }
   };
@@ -58,10 +58,9 @@ class App extends React.Component {
                   <Titles />
                 </div>
                 <div className="col-xs-7 form-container">
-                
                   <Form getWeather={this.getWeather} />
-                  <Weather 
-                    temperature={this.state.temperature} 
+                  <Weather
+                    temperature={this.state.temperature}
                     humidity={this.state.humidity}
                     city={this.state.city}
                     country={this.state.country}
